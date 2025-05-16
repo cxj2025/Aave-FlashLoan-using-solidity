@@ -1,4 +1,6 @@
-pragma solidity ^0.6.6;
+pragma solidity >=0.6.0;
+
+// SPDX-License-Identifier: Apache-2.0
  
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/docs-v3.x/contracts/math/SafeMath.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/docs-v3.x/contracts/token/ERC20/IERC20.sol";
