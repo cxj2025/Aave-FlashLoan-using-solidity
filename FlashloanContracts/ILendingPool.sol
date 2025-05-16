@@ -1,5 +1,7 @@
 
-pragma solidity ^0.6.6;
+pragma solidity >=0.6.0;
+
+// SPDX-License-Identifier: Apache-2.0
   
 interface ILendingPoolV1 {
   function addressesProvider () external view returns ( address );
