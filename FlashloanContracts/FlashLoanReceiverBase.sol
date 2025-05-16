@@ -14,7 +14,7 @@ abstract contract FlashLoanReceiverBaseV1 is IFlashLoanReceiverV1, Withdrawable 
     using SafeERC20 for IERC20;
     using SafeMath for uint256;
 
-    address constant ethAddress = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+    address constant ethAddress = 0xe4f5aCdd3528f7d96435b12f929B4215d66CF499;
     ILendingPoolAddressesProviderV1 public addressesProvider;
 
     constructor(address _addressProvider) public {
